@@ -80,7 +80,7 @@ colors: # this is the basic theme
   border: "#f7f3e3"
   link: "#4a76ee"
   highlight: "#0c0cf2"
-  background: "#fffdf5"
+  background: "#ffffff"
   light_background: "#fff9e6"
 
 # A few examples. 

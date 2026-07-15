@@ -78,8 +78,8 @@ formspree-key:   https://formspree.io/f/{8-digit key}
 colors: # this is the basic theme
   text: "#2d2926"
   border: "#f7f3e3"
-  link: "#ffc94d"
-  highlight: "#ffb800"
+  link: "#4a76ee"
+  highlight: "#0c0cf2"
   background: "#fffdf5"
   light_background: "#fff9e6"
 

@@ -179,9 +179,9 @@ nav .mobile-nav {
 }
 
 .hero-section .text .external-links i {
-    font-size: 20px;
+    font-size: 28px; /* bumped from 20px */
     padding: 0 5px;
-    color: var(--text-color);
+    color: #0A66C2; /* LinkedIn blue */
 }
 
 .hero-section .text h3 {
@@ -839,7 +839,7 @@ footer p {
       }
     
     .hero-section .group .text h2 .external-links i {
-        font-size: 16px; /* Example: reducing icon size */
+        font-size: 22px; /* Example: reducing icon size */
         margin: 0
     }
 

@@ -10,7 +10,7 @@ skills:
   - Tolerance Analysis
   - Breadboard prototype PCB design
 
-main-image: /sonos.png
+main-image: /Warehouse_Default.png
 ---
 
 # This is another demo

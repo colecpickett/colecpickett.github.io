@@ -13,7 +13,7 @@ skills:
   - Material compatibility research
   - Design for servicability/repairability
 
-main-image: /DepthSelect_Default.jpg
+main-image: /DepthSelect_Default.png
 ---
 
 ---

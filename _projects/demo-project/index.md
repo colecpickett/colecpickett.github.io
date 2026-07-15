@@ -1,16 +1,17 @@
 ---
 layout: post
-title: Super Heavy Booster Catch (Demo Only)
-description:  (I have never been employed by / affiliated with SpaceX. This is for demo use only) 
-    Developing the Super Heavy booster catch project involves designing a robust launch tower with "chopstick" arms, advanced control systems for precise booster alignment, and integrating sophisticated software for real-time trajectory adjustments and structural engineering to handle immense forces.
+title: SwimEx Depth Select (Professional Product Design)
+description:  I worked on a team of two engineers to successfully launch SwimEx's latest product line! 
+    The Depth Select allows athletes/patients to utilize an underwater treadmill at any depth 2'-6'
 skills: 
-  - Structural analysis
-  - Aerodynamic design
-  - Propulsion system integration
-  - Control Algorithem 
-  - Welding
-  - Metal forming
-  - Thermal simulation
+  - FEA
+  - Isotropic approximation of Orthotropic material
+  - Dynamic Seal Design
+  - Cross Functional design
+  - Design for composite manufacture
+  - FDM 3D print prototyping
+  - Material compatibility research
+  - Design for servicability/repairability
 
 main-image: /project2.jpg
 ---

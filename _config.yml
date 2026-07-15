@@ -15,9 +15,9 @@ title: Cole Pickett # This is what shows up in the tab of the browser
 name: Hi, I'm Cole Pickett!
 headline: Currently looking for a 4-6 month internship to start Jan. 2027
 description: >- # dont remove this line. this will ignore all new lines until the next section
-I'm a prospective B.S.M.E at Northeastern, with a minor in Aerospace. 
-I have a passion for mechanical design and thrive by combining analysis with creativity.
-I am excited to continue exploring this passion through Aerospace, Medical Robotics, and Automotive engineering
+  I'm a prospective B.S.M.E at Northeastern, with a minor in Aerospace. 
+  I have a passion for mechanical design and thrive by combining analysis with creativity.
+  I am excited to continue exploring this passion through Aerospace, Medical Robotics, and Automotive engineering
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/avatar.jpeg

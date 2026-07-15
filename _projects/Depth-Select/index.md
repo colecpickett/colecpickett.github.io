@@ -17,12 +17,31 @@ main-image: /DepthSelect_Default.png
 ---
 
 ---
-# Header 1 
-Used for the title (already generated automatically at the top)
-## Header 2  
-Use this for the header of each section
-### Header 3 
-Use this to have subsection if needed
+# The Problem:
+The DepthSelect aims to assist athletes and patients alike in progressive recovery. The boyancy of the water supports joints, while the viscosity adds gentle resistence. The key is to match the level of resistance needed to each injury, thus the DepthSelect was created. 
+
+## The Product:  
+The DepthSelect system is an isolated unit installable in any large SwimEx pool. It allows a user to control their depth while allowing multiple other users to remain at full depth for other activities. This comes with complications but it is a major boost to the CPR (Cost to Performance Ratio)
+
+The current prototype is designed to drain its 8'x4'x5'6" chamber at a rate of 400L/m (Circa 1' depth every 30s)
+
+# Design:
+Over the course of my 6 months with SwimEx as a design engineering intern, I delved deep into the design of the DepthSelect chamber. I played a key role in design decisions but also was one of two engineers dedicated to creating early CAD models.
+
+## Analysis:
+While we debated an acrylic wall, we decided to Make the wall composite in order to match the design language of the rest of the pool. This came with an added challenge of composite validation. For this I innovated by creating an isotropic approximation of the orthotropic composite stack for use within Fusion 360 FEA. Through experimentation via a small test piece the FEA was found to show accurate deflection within 15%.
+
+## Rapid Prototyping:
+One of the most ambitious parts of the design is a mechanical seal. Since fiberglass composites still retain some flexibility, and as shown by FEA, we predicted some flex of the wall when draining and filling. For this reason the connection to the outer pool wall cannot be a rigid bond. Instead I helped develop a design that would support the wall, and seal it, while allowing it to slide.
+
+I designed a fullscale cross section to be 3D printed and allow testing of the most complex part of this joint (The point at which the wall meets the floor), the prototype gave valuable insights to the capability of the seal we were using, the most effective adhesive, and allowed for important changes before moving towards a full scale prototype. 
+
+# Full-Scale Prototype:
+After months of FEA, regulatory research, design, rapid-prototyping, and market research, we began construction of a full scale prototype in our factory using designs I helped build, and drawings I authored. I helped to oversee the construction process, and am pictured below standing alongside SwimEx Head engineer Dylan Malone in what will be the first ever functional DepthSelect chamber. 
+
+# Cross-Functional Design:
+A project of this scale requires many considerations. In my time on this project I had many conversations with the SwimEx sales team, exchanging renders for new ideas, to make sure the product matched with the ergonomics and aesthetics our clients want. I sat in on client meetings, and helped to present our idea in its early stages to garner early market support. I also regularly briefed SwimEx financial and administrative sectors with design updates, and recieved then acted their input on timeline and budget goals.
+
 
 
 ## Embedding images 
@@ -34,82 +53,4 @@ You can put in multiple entries. All images will be at a fixed height in the sam
 ### Embeed images
 {% include image-gallery.html images="project2.jpg" height="400" %} 
 place the images in project folder/images then update the file path.   
-
-
-## Embedding youtube video
-The second video has the autoplay on. copy and paste the 11-digit id found in the url link. <br>
-*Example* : https://www.youtube.com/watch?v={**MhVw-MHGv4s**}&ab_channel=engineerguy
-{% include youtube-video.html id="MhVw-MHGv4s" autoplay= "false"%}
-{% include youtube-video.html id="XGC31lmdS6s" autoplay = "true" %}
-
-you can also set up custom size by specifying the width (the aspect ratio has been set to 16/9). The default size is 560 pixels x 315 pixels.  
-
-The width of the video below. Regardless of initial width, all the videos is responsive and will fit within the smaller screen.
-{% include youtube-video.html id="tGCdLEQzde0" autoplay = "false" width= "900px" %}  
-
-<br>
-
-## Adding a hozontal line
----
-
-## Starting a new line
-leave two spaces "  " at the end or enter <br>
-
-## Adding bold text
-this is how you input **bold text**
-
-## Adding italic text
-Italicized text is the *cat's meow*.
-
-## Adding ordered list
-1. First item
-2. Second item
-3. Third item
-4. Fourth item
-
-## Adding unordered list
-- First item
-- Second item
-- Third item
-- Fourth item
-
-## Adding code block
-```ruby
-def hello_world
-  puts "Hello, World!"
-end
-```
-
-```python
-def start()
-  print("time to start!")
-```
-
-```javascript
-let x = 1;
-if (x === 1) {
-  let x = 2;
-  console.log(x);
-}
-console.log(x);
-
-```
-
-## Adding external links
-[Wikipedia](https://en.wikipedia.org)
-
-
-## Adding block quote
-> A blockquote would look great if you need to highlight something
-
-
-## Adding table 
-
-| Header 1 | Header 2 |
-|----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 |
-| Row 2, Col 1 | Row 2, Col 2 |
-
-make sure to leave aline betwen the table and the header
-
 

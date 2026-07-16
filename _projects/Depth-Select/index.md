@@ -30,17 +30,17 @@ Over the course of my 6 months with SwimEx as a design engineering intern, I del
 
 ## Analysis:
 While we debated an acrylic wall, we decided to Make the wall composite in order to match the design language of the rest of the pool. This came with an added challenge of composite validation. For this I innovated by creating an isotropic approximation of the orthotropic composite stack for use within Fusion 360 FEA. Through experimentation via a small test piece the FEA was found to show accurate deflection within 15%.
-{% include image-gallery.html images="IMG_1393.jpg" height="400" %}
+{% include image-gallery.html images="IMG_1393.jpeg" height="400" %}
 
 ## Rapid Prototyping:
 One of the most ambitious parts of the design is a mechanical seal. Since fiberglass composites still retain some flexibility, and as shown by FEA, we predicted some flex of the wall when draining and filling. For this reason the connection to the outer pool wall cannot be a rigid bond. Instead I helped develop a design that would support the wall, and seal it, while allowing it to slide.
 
 I designed a fullscale cross section to be 3D printed and allow testing of the most complex part of this joint (The point at which the wall meets the floor), the prototype gave valuable insights to the capability of the seal we were using, the most effective adhesive, and allowed for important changes before moving towards a full scale prototype. 
-{% include image-gallery.html images="IMG_1696.jpg" height="400" %}
+{% include image-gallery.html images="IMG_1696.jpeg" height="400" %}
 
 # Full-Scale Prototype:
 After months of FEA, regulatory research, design, rapid-prototyping, and market research, we began construction of a full scale prototype in our factory using designs I helped build, and drawings I authored. I helped to oversee the construction process, and am pictured below standing alongside SwimEx Head engineer Dylan Malone in what will be the first ever functional DepthSelect chamber. 
-{% include image-gallery.html images="IMG_1976.jpg" height="400" %}
+{% include image-gallery.html images="IMG_1976.jpeg" height="400" %}
 {% include image-gallery.html images="20260625_115324.jpg" height="400" %}
 
 ## Cross-Functional Design:

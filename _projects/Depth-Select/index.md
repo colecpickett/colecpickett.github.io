@@ -36,12 +36,11 @@ While we debated an acrylic wall, we decided to Make the wall composite in order
 One of the most ambitious parts of the design is a mechanical seal. Since fiberglass composites still retain some flexibility, and as shown by FEA, we predicted some flex of the wall when draining and filling. For this reason the connection to the outer pool wall cannot be a rigid bond. Instead I helped develop a design that would support the wall, and seal it, while allowing it to slide.
 
 I designed a fullscale cross section to be 3D printed and allow testing of the most complex part of this joint (The point at which the wall meets the floor), the prototype gave valuable insights to the capability of the seal we were using, the most effective adhesive, and allowed for important changes before moving towards a full scale prototype. 
-{% include image-gallery.html images="IMG_1696.jpeg" height="400" %}
+{% include image-gallery.html images="IMG_1696.jpeg" height="400" %} {% include image-gallery.html images="IMG_1701.jpeg" height="400" %} {% include image-gallery.html images="IMG_1702.jpeg" height="400" %} 
 
 # Full-Scale Prototype:
 After months of FEA, regulatory research, design, rapid-prototyping, and market research, we began construction of a full scale prototype in our factory using designs I helped build, and drawings I authored. I helped to oversee the construction process, and am pictured below standing alongside SwimEx Head engineer Dylan Malone in what will be the first ever functional DepthSelect chamber. 
-{% include image-gallery.html images="IMG_1976.jpeg" height="400" %}
-{% include image-gallery.html images="20260625_115324.jpg" height="400" %}
+{% include image-gallery.html images="IMG_1976.jpeg" height="400" %}  {% include image-gallery.html images="20260625_115324.jpg" height="400" %}
 
 ## Cross-Functional Design:
 A project of this scale requires many considerations. In my time on this project I had many conversations with the SwimEx sales team, exchanging renders for new ideas, to make sure the product matched with the ergonomics and aesthetics our clients want. I sat in on client meetings, and helped to present our idea in its early stages to garner early market support. I also regularly briefed SwimEx financial and administrative sectors with design updates, and recieved then acted their input on timeline and budget goals.

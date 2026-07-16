@@ -1,6 +1,7 @@
 ---
 layout: post
 title: SwimEx Depth Select (Professional Product Design)
+published: false
 description:  I worked on a team of two engineers to successfully launch SwimEx's latest product line! 
     The Depth Select allows athletes/patients to utilize an underwater treadmill at any depth 2'-6'
 skills: 

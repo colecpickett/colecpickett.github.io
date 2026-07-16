@@ -1,19 +1,13 @@
 ---
 layout: post
-title: SwimEx Depth Select (Professional Product Design)
-description:  I worked on a team of two engineers to successfully launch SwimEx's latest product line! 
-    The Depth Select allows athletes/patients to utilize an underwater treadmill at any depth 2'-6'
+title: FSAE Gurney Flap Design
+description:  I spearheaded the Research and Design of Gurney flaps for prospective deployment on the Northeastern Electric Racing vehicle. Gurney flaps create an intentional high pressure zone on the top of the wing, and create counterrotating vortices on either side. This is to improve flow attachment on the underside of the wing.
 skills: 
-  - FEA
-  - Isotropic approximation of Orthotropic material
-  - Dynamic Seal Design
-  - Cross Functional design
-  - Design for composite manufacture
-  - FDM 3D print prototyping
-  - Material compatibility research
-  - Design for servicability/repairability
+  - CFD
+  - Solidworks
+  - Aerodynamic Research
 
-main-image: /DepthSelect_Default.png
+main-image: /image.png
 ---
 
 ---

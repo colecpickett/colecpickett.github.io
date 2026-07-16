@@ -1,19 +1,18 @@
 ---
 layout: post
 title: SwimEx Depth Select (Professional Product Design)
-description:  I worked on a team of two engineers to successfully launch SwimEx's latest product line! 
-    The Depth Select allows athletes/patients to utilize an underwater treadmill at any depth 2'-6'
+description:  I worked on a solo project to create a light-weight, fast, and durable quadcopter with 6" rotors. I prototyped the multirotor using FDM 3D printing, then upgraded the chassis to a carbon composite for added durability. 
 skills: 
-  - FEA
-  - Isotropic approximation of Orthotropic material
-  - Dynamic Seal Design
-  - Cross Functional design
-  - Design for composite manufacture
-  - FDM 3D print prototyping
-  - Material compatibility research
-  - Design for servicability/repairability
+  - Rapid Prototyping
+  - Design for Manufacture
+  - Soldering
+  - Component Compatibility Research
+  - Fusion 360 CAD
+  - Fusion 360 CAM
+  - FDM 3D Printing
+  - CNC Machining
 
-main-image: /DepthSelect_Default.png
+main-image: /823BB06F-64E9-4117-92D5-722400A76D51_1_105_c.jpg
 ---
 
 ---

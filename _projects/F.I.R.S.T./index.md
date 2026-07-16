@@ -1,19 +1,15 @@
 ---
 layout: post
-title: SwimEx Depth Select (Professional Product Design)
-description:  I worked on a team of two engineers to successfully launch SwimEx's latest product line! 
-    The Depth Select allows athletes/patients to utilize an underwater treadmill at any depth 2'-6'
+title: F.I.R.S.T Robotics drive chassis (Highschool Team)
+description:  In my role as Head of Design I spearheaded the design and manufacture process for the 2023 drive chassis at Lincoln Robotics team 7604. The chassis had omnidirectional capabilities, and was kept within a small footprint with a low C.G. The Chassis was manufactured using CNC laser cutting out of Delrin and off the shelf aluminum parts. 
 skills: 
-  - FEA
-  - Isotropic approximation of Orthotropic material
-  - Dynamic Seal Design
   - Cross Functional design
-  - Design for composite manufacture
   - FDM 3D print prototyping
-  - Material compatibility research
-  - Design for servicability/repairability
+  - Material Property Research
+  - Fusion 360
+  - CNC Laser
 
-main-image: /DepthSelect_Default.png
+main-image: /7604_Title.png
 ---
 
 ---

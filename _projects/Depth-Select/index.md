@@ -21,9 +21,9 @@ main-image: /DepthSelect_Default.png
 The DepthSelect aims to assist athletes and patients alike in progressive recovery. The boyancy of the water supports joints, while the viscosity adds gentle resistence. The key is to match the level of resistance needed to each injury, thus the DepthSelect was created. 
 
 ## The Product:  
-The DepthSelect system is an isolated unit installable in any large SwimEx pool. It allows a user to control their depth while allowing multiple other users to remain at full depth for other activities. This comes with complications but it is a major boost to the CPR (Cost to Performance Ratio)
+The DepthSelect system is an isolated unit installable in any large SwimEx pool. It allows a user to control their depth while allowing multiple other users to remain at full depth for other activities. This comes with complications but it is a major boost to the CPR (Cost to Performance Ratio).
 
-The current prototype is designed to drain its 8'x4'x5'6" chamber at a rate of 400L/m (Circa 1' depth every 30s)
+The current prototype is designed to drain its 8'x4'x5'6" chamber at a rate of 400L/m (Circa 1' depth every 30s).
 
 ## Design:
 Over the course of my 6 months with SwimEx as a design engineering intern, I delved deep into the design of the DepthSelect chamber. I played a key role in design decisions but also was one of two engineers dedicated to creating early CAD models.

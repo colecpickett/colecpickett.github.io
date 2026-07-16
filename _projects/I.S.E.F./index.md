@@ -1,19 +1,14 @@
 ---
 layout: post
-title: SwimEx Depth Select (Professional Product Design)
-description:  I worked on a team of two engineers to successfully launch SwimEx's latest product line! 
-    The Depth Select allows athletes/patients to utilize an underwater treadmill at any depth 2'-6'
+title: Ionic Thruster Design and Optimization (ISEF submission)
+description:  I worked in partnership to test multiple variables in optimization of ionic thrust utilizing standard atmosphere. We successfully were able to optimize anode-cathode distance and test multiple different shapes to create a theoretically optimized thruster design. 
 skills: 
-  - FEA
-  - Isotropic approximation of Orthotropic material
-  - Dynamic Seal Design
-  - Cross Functional design
-  - Design for composite manufacture
-  - FDM 3D print prototyping
-  - Material compatibility research
-  - Design for servicability/repairability
+  - Fusion 360
+  - Soldering
+  - Circuit Design
+  - Data Analysis
 
-main-image: /DepthSelect_Default.png
+main-image: /ISEF_Title.png
 ---
 
 ---

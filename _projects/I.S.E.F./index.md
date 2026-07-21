@@ -10,101 +10,39 @@ skills:
 
 main-image: /ISEF_Title.png
 ---
-
----
-# Header 1 
-Used for the title (already generated automatically at the top)
-## Header 2  
-Use this for the header of each section
-### Header 3 
-Use this to have subsection if needed
-
-
-## Embedding images 
-### External images
-{% include image-gallery.html images="https://live.staticflickr.com/65535/52821641477_d397e56bc4_k.jpg, https://live.staticflickr.com/65535/52822650673_f074b20d90_k.jpg" height="400"%}
-<span style="font-size: 10px">"Starship Test Flight Mission" from https://www.flickr.com/photos/spacex/52821641477/</span>  
-You can put in multiple entries. All images will be at a fixed height in the same row. With smaller window, they will switch to columns.  
-
-### Embeed images
-{% include image-gallery.html images="project2.jpg" height="400" %} 
-place the images in project folder/images then update the file path.   
-
-
-## Embedding youtube video
-The second video has the autoplay on. copy and paste the 11-digit id found in the url link. <br>
-*Example* : https://www.youtube.com/watch?v={**MhVw-MHGv4s**}&ab_channel=engineerguy
-{% include youtube-video.html id="MhVw-MHGv4s" autoplay= "false"%}
-{% include youtube-video.html id="XGC31lmdS6s" autoplay = "true" %}
-
-you can also set up custom size by specifying the width (the aspect ratio has been set to 16/9). The default size is 560 pixels x 315 pixels.  
-
-The width of the video below. Regardless of initial width, all the videos is responsive and will fit within the smaller screen.
-{% include youtube-video.html id="tGCdLEQzde0" autoplay = "false" width= "900px" %}  
-
-<br>
-
-## Adding a hozontal line
 ---
 
-## Starting a new line
-leave two spaces "  " at the end or enter <br>
+## The Problem:
+Ion thrusters typically operate in the vacuum of space, where the absence of atmospheric resistance allows even small thrust forces to accelerate a craft over time. Producing measurable, controllable ion thrust *within* Earth's atmosphere presented a different challenge: identifying the anode-cathode configuration and voltage that would generate usable thrust despite atmospheric interference.
 
-## Adding bold text
-this is how you input **bold text**
+## The Product:
+The result is a functioning ion thruster prototype paired with a custom-built thrust measurement fixture, designed to quantify thrust output at varying voltages and electrode distances. The system uses a DC power supply stepped up to an estimated 40,000V to ionize air between a copper anode and cathode, generating measurable thrust via ion drift.
 
-## Adding italic text
-Italicized text is the *cat's meow*.
+## Design:
+I designed and fabricated both the thruster and its test fixture, using Fusion 360 to model a rig capable of isolating and measuring small thrust forces via a cantilevered tensiometer. The thruster itself was manufactured from copper sheet and tubing, soldered throughout to ensure continuous electrical continuity under high voltage.
 
-## Adding ordered list
-1. First item
-2. Second item
-3. Third item
-4. Fourth item
+{% include image-gallery.html images="thruster-cad.jpeg, rig-photo.jpeg" height="400" %}
 
-## Adding unordered list
-- First item
-- Second item
-- Third item
-- Fourth item
+## Analysis:
+To identify the optimal thruster configuration, I ran data analysis across a range of anode-cathode distances and voltages, measuring resulting thrust with the custom tensiometer fixture. This process identified the optimal electrode spacing for maximum thrust within atmospheric conditions, validated through repeated testing at varying voltage levels.
 
-## Adding code block
-```ruby
-def hello_world
-  puts "Hello, World!"
-end
-```
+{% include image-gallery.html images="testing-setup.jpeg" height="400" %}
 
-```python
-def start()
-  print("time to start!")
-```
+## Results:
+Qualitative streamer testing showed firmer, more consistent airflow compared to earlier design iterations, confirming the improved electrode geometry translated to real performance gains. The completed prototype and testing methodology earned 1st place in Electrical Engineering at the Oregon State Science Fair.
 
-```javascript
-let x = 1;
-if (x === 1) {
-  let x = 2;
-  console.log(x);
-}
-console.log(x);
+{% include image-gallery.html images="final-prototype.jpeg" height="400" %}
 
-```
+## Future Work:
+Building on this first-generation design, I identified two areas for continued development:
 
-## Adding external links
-[Wikipedia](https://en.wikipedia.org)
+**Future Testing:**
+- Testing alternative anode and cathode geometries to further optimize thrust output
+- Analyzing the effect of manipulating chamber air pressure on thrust performance
 
+**Future Design:**
+- Using CFD to design an optimized inlet and nozzle geometry
+- Developing a lighter, more aerodynamic cathode by electroplating carbon-coated SLA prints
 
-## Adding block quote
-> A blockquote would look great if you need to highlight something
-
-
-## Adding table 
-
-| Header 1 | Header 2 |
-|----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 |
-| Row 2, Col 1 | Row 2, Col 2 |
-
-make sure to leave aline betwen the table and the header
-
+{% include image-gallery.html images="future-design-cad.jpeg, future-cathode.jpeg" height="400" %}
 

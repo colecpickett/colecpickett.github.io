@@ -24,17 +24,17 @@ The result is a functioning ion thruster prototype paired with a custom-built th
 ## Design:
 I designed and fabricated both the thruster and its test fixture, using Fusion 360 to model a rig capable of isolating and measuring small thrust forces via a cantilevered tensiometer. The thruster itself was manufactured from copper sheet and tubing, soldered throughout to ensure continuous electrical continuity under high voltage.
 
-{% include image-gallery.html images="thruster-cad.jpeg, rig-photo.jpeg" height="400" %}
+{% include image-gallery.html images="thruster-cad.png, rig-photo.png" height="400" %}
 
 ## Analysis:
 To identify the optimal thruster configuration, I ran data analysis across a range of anode-cathode distances and voltages, measuring resulting thrust with the custom tensiometer fixture. This process identified the optimal electrode spacing for maximum thrust within atmospheric conditions, validated through repeated testing at varying voltage levels.
 
-{% include image-gallery.html images="testing-setup.jpeg" height="400" %}
+{% include image-gallery.html images="testing-setup.png" height="400" %}
 
 ## Results:
 Qualitative streamer testing showed firmer, more consistent airflow compared to earlier design iterations, confirming the improved electrode geometry translated to real performance gains. The completed prototype and testing methodology earned 1st place in Electrical Engineering at the Oregon State Science Fair.
 
-{% include image-gallery.html images="final-prototype.jpeg" height="400" %}
+{% include image-gallery.html images="final-prototype.png" height="400" %}
 
 ## Future Work:
 Building on this first-generation design, I identified two areas for continued development:
@@ -47,5 +47,5 @@ Building on this first-generation design, I identified two areas for continued d
 - Using CFD to design an optimized inlet and nozzle geometry
 - Developing a lighter, more aerodynamic cathode by electroplating carbon-coated SLA prints
 
-{% include image-gallery.html images="future-design-cad.jpeg, future-cathode.jpeg" height="400" %}
+{% include image-gallery.html images="future-design-cad.png, future-cathode.jpg, electroplate-design.png" height="400" %}
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SwimEx Depth Select (Professional Product Design)
+title: Quadcopter (Hobbyist Product Design)
 description:  I worked on a solo project to create a light-weight, fast, and durable quadcopter with 6" rotors. I prototyped the multirotor using FDM 3D printing, then upgraded the chassis to a carbon composite for added durability. 
 skills: 
   - Rapid Prototyping

@@ -1,34 +1,45 @@
 ---
 layout: post
 title: Warehouse Storage Automation Robot (Prototype)
-description: I designed, fabricated, and coded an autonomous robot prototype to automate package moves and organization within a controlled factory system.
-skills: 
-  - FDM 3D Printing
+description: As part of a four-person team, I helped design, build, and program an autonomous 
+    mobile robot capable of navigating a warehouse-style environment and transporting boxes 
+    between shelves using a scissor-lift mechanism.
+skills:
   - Fusion 360
-  - Arduino
-  - C++
-  - Tolerance Analysis
-  - Breadboard prototype PCB design
-
+  - Rack-and-pinion mechanism design
+  - Scissor lift design
+  - Arduino / C++
+  - FDM 3D printing
+  - Sensor integration (ultrasonic + IR)
+  - Decision matrix analysis
+  - Iterative design process
+    
 main-image: /Warehouse_Default.png
 ---
 ---
 
 ## The Problem:
-Manual package handling and sorting within a factory system is slow and labor-intensive. An autonomous robot capable of navigating a fixed path and moving packages between designated ports offers a way to automate this process without requiring a fully custom industrial solution.
+Warehouses lose significant time and money to inefficiencies in manual box handling, and warehouse work carries real safety risk — industry data shows tens of thousands of forklift and material-handling injuries occur annually. Our team, as part of Northeastern's Cornerstone of Engineering course, set out to design an autonomous mobile robot (AMR) that could transport boxes between shelves, reducing both inefficiency and the need for workers in repetitive, injury-prone roles.
 
-## The Product:
-The result is an autonomous robot prototype built to move packages between fixed ports within a controlled factory layout. The robot uses line-following navigation to travel its route, an ultrasonic sensor to detect ports, and a scissor-lift mechanism to pick up and carry packages along the way.
+## Research & Concept Selection:
+We researched existing AMR systems, including GreyOrange's warehouse robots, to inform our design direction. Using a Duncker diagram and weighted decision matrices, our team evaluated multiple line-following path layouts and lift mechanism options before committing to a design — ultimately selecting a straight two-shelf path for reliability and a micro-servo-driven rack-and-pinion lift for precision and part availability over motor or alternative servo options.
+
+{% include image-gallery.html images="duncker-diagram.png, decision-matrix.png" height="400" %}
 
 ## Design:
-I designed the robot's chassis and scissor-lift mechanism in Fusion 360 and Solidworks, then manufactured the parts using FDM 3D printing. The system was powered and controlled by an Arduino, programmed in C++ to handle both navigation and lift actuation.
+I contributed to the mechanical design of the robot's chassis, scissor-lift arms, and shelf system in Fusion 360. The lift went through three major iterations — from an initial proof-of-concept slider-and-rack mechanism, to a wider "double-wide base" supporting two parallel lifts, to a final version with added fillets for structural stability and refined tolerances on friction-prone surfaces. The drivetrain used four DC motors mounted to 3D-printed drive trays, paired with a sensor suite of one ultrasonic distance sensor and IR contrast sensors for line-following.
 
-{% include image-gallery.html images="robot-cad.jpeg, robot-build.jpeg" height="400" %}
+{% include image-gallery.html images="amr-cad.png, scissor-lift-cad.png" height="400" %}
 
-## Autonomy & Sensing:
-To navigate independently, the robot combines a line-following program with an ultrasonic sensor for port detection — allowing it to travel a fixed route and stop precisely at each package port without manual intervention.
+## Prototyping & Iteration:
+We built and tested multiple physical prototypes throughout the semester. Early testing surfaced friction issues in the lift's top rail, prompting us to add clearance and tolerances in later prints. Final assembly and testing revealed a robot sag caused by added tolerances — with no effect on performance — along with several field fixes, including a quick-turnaround servo brace we designed and printed after the original servo mounts failed shortly before the deadline.
 
-{% include image-gallery.html images="robot-final.jpeg" height="400" %}
+{% include image-gallery.html images="amr-prototype-1.png, amr-prototype-2.png" height="400" %}
 
 ## Results:
-The completed robot successfully used its line-following program to navigate between package ports, picked up and carried packages using the scissor-lift, and reliably detected each port using the ultrasonic sensor — validating the full pick-up, transport, and drop-off cycle end to end.
+The final robot successfully executed its full task cycle: following a line between shelves, detecting ports with its ultrasonic sensor, and lifting and placing boxes using the scissor mechanism. Millis-timer-based code allowed the robot to read sensor input and act in real time, and the 3D-printed chassis held up reliably through testing and the final demonstration.
+
+{% include image-gallery.html images="amr-final.png" height="400" %}
+
+## Reflection:
+Simplifying our warehouse layout and code logic paid off — the robot ran with fewer bugs than earlier, more complex iterations. Looking back, the team identified a rear-facing distance sensor and improved hook/servo design as the most valuable next steps for a future version, along with a larger, more complex warehouse layout to test scalability.

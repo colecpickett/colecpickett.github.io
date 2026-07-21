@@ -32,12 +32,12 @@ I contributed to the mechanical design of the robot's chassis, scissor-lift arms
 ## Prototyping & Iteration:
 We built and tested multiple physical prototypes throughout the semester. Early testing surfaced friction issues in the lift's top rail, prompting us to add clearance and tolerances in later prints. Final assembly and testing revealed a robot sag caused by added tolerances — with no effect on performance — along with several field fixes, including a quick-turnaround servo brace we designed and printed after the original servo mounts failed shortly before the deadline.
 
-{% include image-gallery.html images="amr-cad.png, mechanical-drawing.png" height="400" %}
+{% include image-gallery.html images="amr-cad.png, mechanical-drawing.png" height="300" %}
 
 ## Results:
 The final robot successfully executed its full task cycle: following a line between shelves, detecting ports with its ultrasonic sensor, and lifting and placing boxes using the scissor mechanism. Millis-timer-based code allowed the robot to read sensor input and act in real time, and the 3D-printed chassis held up reliably through testing and the final demonstration.
 
-{% include image-gallery.html images="final-1.png, final-2.png" height="400" %}
+{% include image-gallery.html images="final-1.png, final-2.jpg" height="400" %}
 
 ## Reflection:
 Simplifying our warehouse layout and code logic paid off — the robot ran with fewer bugs than earlier, more complex iterations. Looking back, the team identified a rear-facing distance sensor and improved hook/servo design as the most valuable next steps for a future version, along with a larger, more complex warehouse layout to test scalability.

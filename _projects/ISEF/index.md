@@ -47,5 +47,5 @@ Building on this first-generation design, I identified two areas for continued d
 - Using CFD to design an optimized inlet and nozzle geometry
 - Developing a lighter, more aerodynamic cathode by electroplating carbon-coated SLA prints
 
-{% include image-gallery.html images="future-design-cad.png, future-cathode.jpg, electroplate-design.png" height="400" %}
+{% include image-gallery.html images="future-design-cad.png, future-cathode.jpg, electroplate-design.png" height="300" %}
 

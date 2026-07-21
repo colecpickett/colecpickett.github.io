@@ -4,16 +4,19 @@ title: Ionic Thruster Design and Optimization (ISEF submission)
 description:  I worked in partnership to test multiple variables in optimization of ionic thrust utilizing standard atmosphere. We successfully were able to optimize anode-cathode distance and test multiple different shapes to create a theoretically optimized thruster design. 
 skills: 
   - Fusion 360
+  - SLA/FDM prototyping
+  - Custom Test Fixture Design
   - Soldering
   - Circuit Design
   - Data Analysis
+  - Electroplating
 
 main-image: /ISEF_Title.png
 ---
 ---
 
 ## The Problem:
-Ion thrusters typically operate in the vacuum of space, where the absence of atmospheric resistance allows even small thrust forces to accelerate a craft over time. Producing measurable, controllable ion thrust *within* Earth's atmosphere presented a different challenge: identifying the anode-cathode configuration and voltage that would generate usable thrust despite atmospheric interference.
+Ion thrusters typically operate in the vacuum of space, where the absence of atmospheric resistance allows even small thrust forces to accelerate a craft over time. Producing measurable, controllable ion thrust *within* Earth's atmosphere presented a different challenge: identifying the anode-cathode configuration and voltage that would generate usable thrust using the atmosphere itself as propellent.
 
 ## The Product:
 The result is a functioning ion thruster prototype paired with a custom-built thrust measurement fixture, designed to quantify thrust output at varying voltages and electrode distances. The system uses a DC power supply stepped up to an estimated 40,000V to ionize air between a copper anode and cathode, generating measurable thrust via ion drift.

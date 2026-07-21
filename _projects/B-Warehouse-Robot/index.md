@@ -14,7 +14,7 @@ skills:
   - Decision matrix analysis
   - Iterative design process
     
-main-image: /Warehouse_Default.png
+main-image: /warehouse-hero.jpg
 ---
 ---
 

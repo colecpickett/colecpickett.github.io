@@ -3,10 +3,10 @@ layout: post
 title: FSAE Gurney Flaps (R&D)
 description:  I spearheaded the Research and Design of Gurney flaps for prospective deployment on the Northeastern Electric Racing vehicle. Gurney flaps create an intentional high pressure zone on the top of the wing, and create counterrotating vortices on either side. This is to improve flow attachment on the underside of the wing.
 skills: 
-  - CFD
+  - Ansys CFD Analysis
   - Solidworks
-  - Aviation/motorsport aero research
-  - Iterative design process
+  - Aviation/Motorsport Aerodynamics Research
+  - Iterative Design Process
 
 main-image: /image.png
 ---

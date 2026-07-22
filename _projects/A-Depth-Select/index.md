@@ -5,13 +5,13 @@ description: I worked on a team of two engineers to design and launch SwimEx's l
     The DepthSelect allows athletes and patients to use an underwater treadmill at any depth from 2' to 6'.
 skills: 
   - FEA
-  - Isotropic approximation of orthotropic material
-  - Dynamic seal design
-  - Cross-functional design
-  - Design for composite manufacture
-  - FDM 3D print prototyping
-  - Material compatibility research
-  - Design for serviceability/repairability
+  - Isotropic Approximation of Orthotropic Material
+  - Dynamic Seal Design
+  - Cross-Functional Design
+  - Design for Composite Manufacture
+  - FDM 3D Print Prototyping
+  - Material Compatibility Research
+  - Design for Serviceability/Repairability
 main-image: /DepthSelect_Default.png
 ---
 ---

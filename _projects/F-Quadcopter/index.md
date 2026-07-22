@@ -28,7 +28,7 @@ I designed the quadcopter frame in Fusion 360 to support 6" rotors, splitting th
 ## Manufacturing & Assembly:
 After machining the carbon fiber frame components, I hand-soldered all of the onboard electronics to assemble a complete, functional build.
 
-{% include image-gallery.html images="quad-handheld.png, quad-assembled.png" height="400" %}
+{% include image-gallery.html images="quad-handheld.jpg, quad-assembled.jpg" height="400" %}
 
 ## Results:
 The completed quadcopter flew successfully, with the carbon fiber frame proving strong and remaining fully intact through flight testing.

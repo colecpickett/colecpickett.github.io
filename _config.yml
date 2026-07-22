@@ -67,7 +67,8 @@ skills:
     tools:
     - FEA (Fusion 360)
     - CFD (Ansys)
-  - category: Software/Code
+  - category: Software / Code
+    tools:
     - C++
     - Arduino
     - HTML

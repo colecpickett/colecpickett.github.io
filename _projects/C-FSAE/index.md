@@ -1,109 +1,30 @@
 ---
 layout: post
-title: FSAE Gurney Flap Design
+title: FSAE Gurney Flaps (R&D)
 description:  I spearheaded the Research and Design of Gurney flaps for prospective deployment on the Northeastern Electric Racing vehicle. Gurney flaps create an intentional high pressure zone on the top of the wing, and create counterrotating vortices on either side. This is to improve flow attachment on the underside of the wing.
 skills: 
   - CFD
   - Solidworks
-  - Aerodynamic Research
+  - Aviation/motorsport aero research
+  - Iterative design process
 
 main-image: /image.png
 ---
-
----
-# Header 1 
-Used for the title (already generated automatically at the top)
-## Header 2  
-Use this for the header of each section
-### Header 3 
-Use this to have subsection if needed
-
-
-## Embedding images 
-### External images
-{% include image-gallery.html images="https://live.staticflickr.com/65535/52821641477_d397e56bc4_k.jpg, https://live.staticflickr.com/65535/52822650673_f074b20d90_k.jpg" height="400"%}
-<span style="font-size: 10px">"Starship Test Flight Mission" from https://www.flickr.com/photos/spacex/52821641477/</span>  
-You can put in multiple entries. All images will be at a fixed height in the same row. With smaller window, they will switch to columns.  
-
-### Embeed images
-{% include image-gallery.html images="project2.jpg" height="400" %} 
-place the images in project folder/images then update the file path.   
-
-
-## Embedding youtube video
-The second video has the autoplay on. copy and paste the 11-digit id found in the url link. <br>
-*Example* : https://www.youtube.com/watch?v={**MhVw-MHGv4s**}&ab_channel=engineerguy
-{% include youtube-video.html id="MhVw-MHGv4s" autoplay= "false"%}
-{% include youtube-video.html id="XGC31lmdS6s" autoplay = "true" %}
-
-you can also set up custom size by specifying the width (the aspect ratio has been set to 16/9). The default size is 560 pixels x 315 pixels.  
-
-The width of the video below. Regardless of initial width, all the videos is responsive and will fit within the smaller screen.
-{% include youtube-video.html id="tGCdLEQzde0" autoplay = "false" width= "900px" %}  
-
-<br>
-
-## Adding a hozontal line
 ---
 
-## Starting a new line
-leave two spaces "  " at the end or enter <br>
+## The Problem:
+Gurney flaps are small, right-angle tabs added to the trailing edge of a wing. They are a well established technique in aviation for increasing downforce, but their effect on drag and their optimal sizing relative to wing chord length aren't one size fits all. For Northeastern Electric Racing's front and rear wings, the question was whether Gurney flaps could meaningfully increase effective airfoil area and downforce without an unacceptable drag penalty for our specific wing geometry.
 
-## Adding bold text
-this is how you input **bold text**
+## Research & Design:
+I led the initial research phase, studying how Gurney flaps are used in aviation applications and adapting that logic to our car's wings. From there, I designed multiple flap height variants in Fusion 360, sized relative to the wing's chord length, to test across a range of geometries rather than committing to a single configuration upfront.
 
-## Adding italic text
-Italicized text is the *cat's meow*.
+{% include image-gallery.html images="gurney-research.png, gurney-flap-cad.png" height="400" %}
 
-## Adding ordered list
-1. First item
-2. Second item
-3. Third item
-4. Fourth item
+## Analysis:
+Each flap variant was tested using ANSYS CFD to visualize airflow behavior and quantify resulting downforce and drag. The CFD results showed that our tested configurations produced high downforce, but paired with a significant drag increase. This tradeoff needed optimization, however did not constitute termination of the project.
 
-## Adding unordered list
-- First item
-- Second item
-- Third item
-- Fourth item
+{% include image-gallery.html images="cfd-flow-analysis.png, cfd-pressure-analysis.png" height="400" %}
 
-## Adding code block
-```ruby
-def hello_world
-  puts "Hello, World!"
-end
-```
-
-```python
-def start()
-  print("time to start!")
-```
-
-```javascript
-let x = 1;
-if (x === 1) {
-  let x = 2;
-  console.log(x);
-}
-console.log(x);
-
-```
-
-## Adding external links
-[Wikipedia](https://en.wikipedia.org)
-
-
-## Adding block quote
-> A blockquote would look great if you need to highlight something
-
-
-## Adding table 
-
-| Header 1 | Header 2 |
-|----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 |
-| Row 2, Col 1 | Row 2, Col 2 |
-
-make sure to leave aline betwen the table and the header
-
+## Status:
+Based on these results, the next planned step was running further CFD trials varying flap height, thickness, and angle to find a configuration that preserved the downforce gain while reducing the drag penalty. I stepped back from this project as my involvement with other clubs and coursework grew, before that next optimization round was completed. The groundwork feasibility research, initial geometry design, and baseline CFD is documented here as a foundation for any future continuation of this work.
 

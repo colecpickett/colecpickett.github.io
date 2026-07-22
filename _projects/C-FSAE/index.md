@@ -23,7 +23,7 @@ I led the initial research phase, studying how Gurney flaps are used in aviation
 ## Analysis:
 Each flap variant was tested using ANSYS CFD to visualize airflow behavior and quantify resulting downforce and drag. The CFD results showed that our tested configurations produced high downforce, but paired with a significant drag increase. This tradeoff needed optimization, however did not constitute termination of the project.
 
-{% include image-gallery.html images="cfd-flow-analysis.png, cfd-pressure-analysis.png" height="400" %}
+{% include image-gallery.html images="cfd-flow-analysis.png, cfd-pressure-analysis.png" height="300" %}
 
 ## Status:
 Based on these results, the next planned step was running further CFD trials varying flap height, thickness, and angle to find a configuration that preserved the downforce gain while reducing the drag penalty. I stepped back from this project as my involvement with other clubs and coursework grew, before that next optimization round was completed. The groundwork feasibility research, initial geometry design, and baseline CFD is documented here as a foundation for any future continuation of this work.

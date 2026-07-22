@@ -67,6 +67,11 @@ skills:
     tools:
     - FEA (Fusion 360)
     - CFD (Ansys)
+  - category: Software/Code
+    - C++
+    - Arduino
+    - HTML
+    - CSS
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.

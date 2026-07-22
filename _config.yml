@@ -57,11 +57,17 @@ skills:
     - Vacuum Casting
     - Laser Cutting
     - Arduino
-    - Breadboarding for circuit testing
+    - Breadboarding for Circuit Testing
+  - category: Artificial Intelligence
+    tools:
+    - LLM Prompt Engineering
+    - AI-assisted Debugging (YAML, CSS, HTML/Liquid)
+    - Design Concepting (icon/asset generation)
+    - Workflow Automation
   - category: Design Standards / Practices
     tools:
     - GD&T
-    - ISO fits and tolerances
+    - ISO Fits and Tolerances
     - PLM (Arena)   
   - category: Problem Solving / Simulation
     tools:

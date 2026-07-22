@@ -6,13 +6,13 @@ description: As part of a four-person team, I helped design, build, and program 
     between shelves using a scissor-lift mechanism.
 skills:
   - Fusion 360
-  - Rack-and-pinion mechanism design
-  - Scissor lift design
+  - Rack and Pinion Mechanism Design
+  - Scissor Lift Design
   - Arduino / C++
-  - FDM 3D printing
-  - Sensor integration (ultrasonic + IR)
-  - Decision matrix analysis
-  - Iterative design process
+  - FDM 3D Printing
+  - Sensor Integration (Ultrasonic + IR)
+  - Decision Matrix Analysis
+  - Iterative Design Process
     
 main-image: /warehouse-hero.jpg
 ---

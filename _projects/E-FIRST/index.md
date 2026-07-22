@@ -1,111 +1,33 @@
 ---
 layout: post
 title: F.I.R.S.T Robotics drive chassis (Highschool Team)
-description:  In my role as Head of Design I spearheaded the design and manufacture process for the 2023 drive chassis at Lincoln Robotics team 7604. The chassis had omnidirectional capabilities, and was kept within a small footprint with a low C.G. The Chassis was manufactured using CNC laser cutting out of Delrin and off the shelf aluminum parts. 
+description:  In my role as Head of Design I spearheaded the design and manufacture process for the 2023 drive chassis at Lincoln Robotics team 7604. The chassis had omnidirectional capabilities, and was kept within a small footprint with a low C.G. The Chassis was manufactured using CNC laser cutting out of Delrin and aluminum extrusion. 
 skills: 
   - Cross Functional design
-  - FDM 3D print prototyping
+  - FDM 3D Print Prototyping
   - Material Property Research
   - Fusion 360
-  - CNC Laser
+  - CNC Laser (Delrin/Acetal)
+  - Aluminum Extrusion Construction
+  - Mechanical Design for Competition Robotics
 
 main-image: /7604_Title.png
 ---
-
----
-# Header 1 
-Used for the title (already generated automatically at the top)
-## Header 2  
-Use this for the header of each section
-### Header 3 
-Use this to have subsection if needed
-
-
-## Embedding images 
-### External images
-{% include image-gallery.html images="https://live.staticflickr.com/65535/52821641477_d397e56bc4_k.jpg, https://live.staticflickr.com/65535/52822650673_f074b20d90_k.jpg" height="400"%}
-<span style="font-size: 10px">"Starship Test Flight Mission" from https://www.flickr.com/photos/spacex/52821641477/</span>  
-You can put in multiple entries. All images will be at a fixed height in the same row. With smaller window, they will switch to columns.  
-
-### Embeed images
-{% include image-gallery.html images="project2.jpg" height="400" %} 
-place the images in project folder/images then update the file path.   
-
-
-## Embedding youtube video
-The second video has the autoplay on. copy and paste the 11-digit id found in the url link. <br>
-*Example* : https://www.youtube.com/watch?v={**MhVw-MHGv4s**}&ab_channel=engineerguy
-{% include youtube-video.html id="MhVw-MHGv4s" autoplay= "false"%}
-{% include youtube-video.html id="XGC31lmdS6s" autoplay = "true" %}
-
-you can also set up custom size by specifying the width (the aspect ratio has been set to 16/9). The default size is 560 pixels x 315 pixels.  
-
-The width of the video below. Regardless of initial width, all the videos is responsive and will fit within the smaller screen.
-{% include youtube-video.html id="tGCdLEQzde0" autoplay = "false" width= "900px" %}  
-
-<br>
-
-## Adding a hozontal line
 ---
 
-## Starting a new line
-leave two spaces "  " at the end or enter <br>
+## The Problem:
+Our robot needed a drive chassis that could move quickly and omnidirectionally around a tight competition arena while supporting a tall extension arm, meaning the chassis had to be compact enough for a short wheelbase, yet have a low enough center of gravity despite that added height. All of this had to fit within a strict footprint requirement dictated by the narrow spacing of arena obstacles.
 
-## Adding bold text
-this is how you input **bold text**
+## Design:
+I designed the chassis in Fusion 360, aiming for a low, wide structural base that could support the extension arm's added height without compromising stability or maneuverability. The design needed to balance rigidity, weight, and available mounting space for motors, telemetry devices, and the arm mechanism.
 
-## Adding italic text
-Italicized text is the *cat's meow*.
+{% include image-gallery.html images="chassis-cad.png" height="400" %}
 
-## Adding ordered list
-1. First item
-2. Second item
-3. Third item
-4. Fourth item
+## Manufacturing:
+The chassis was constructed using laser-cut Delrin (acetal homopolymer) for durable structural panels, aluminum extrusion for rigidity, and select PETG 3D-printed parts to mount telemetry devices. This combination kept the chassis lightweight while meeting the strength requirements needed for competition play.
 
-## Adding unordered list
-- First item
-- Second item
-- Third item
-- Fourth item
+{% include image-gallery.html images="laser-cutting.png, 7604_Title.png" height="400" %}
 
-## Adding code block
-```ruby
-def hello_world
-  puts "Hello, World!"
-end
-```
-
-```python
-def start()
-  print("time to start!")
-```
-
-```javascript
-let x = 1;
-if (x === 1) {
-  let x = 2;
-  console.log(x);
-}
-console.log(x);
-
-```
-
-## Adding external links
-[Wikipedia](https://en.wikipedia.org)
-
-
-## Adding block quote
-> A blockquote would look great if you need to highlight something
-
-
-## Adding table 
-
-| Header 1 | Header 2 |
-|----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 |
-| Row 2, Col 1 | Row 2, Col 2 |
-
-make sure to leave aline betwen the table and the header
-
+## Results:
+The completed chassis delivered fast omnidirectional motion while keeping the robot's center of gravity stable, even with the tall extension arm mounted. The final footprint held within our 12.5" x 13.5" target, meeting the competition's spatial constraints while leaving room for the lift mechanism to operate. The robot performed well, making a splash at the oregon state F.I.R.S.T. FTC competition which coming from a public school team surprised our better funded competitors.
 

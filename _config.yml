@@ -47,8 +47,9 @@ skills:
     tools:
     - Onshape
     - Solidworks
-    - Fusion 360 (Autodesk)
-    - Inventor (Autodesk)
+    - Fusion
+    - Inventor
+    - AutoCAD
   - category: Prototyping
     tools:
     - SLA
@@ -61,10 +62,10 @@ skills:
     - Soldering
   - category: Artificial Intelligence
     tools:
-    - LLM Prompt Engineering
-    - AI-assisted Debugging (YAML, CSS, HTML/Liquid)
-    - Design Concepting (icon/asset generation)
-    - Workflow Automation
+    - Prompt & Context Engineering
+    - AI Agent Orchestration
+    - LLM Workflow Design
+    - Tool Calling & API Integration
   - category: Design Standards / Practices
     tools:
     - GD&T
@@ -72,7 +73,7 @@ skills:
     - PLM (Arena)   
   - category: Problem Solving / Simulation
     tools:
-    - FEA (Fusion 360)
+    - FEA (Fusion)
     - CFD (Ansys)
   - category: Software / Code
     tools:

@@ -63,8 +63,7 @@ skills:
   - category: Artificial Intelligence
     tools:
     - Prompt & Context Engineering
-    - AI Agent Orchestration
-    - LLM Workflow Design
+    - AI-Assisted Static Analysis
     - Tool Calling & API Integration
   - category: Design Standards / Practices
     tools:

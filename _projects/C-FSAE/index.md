@@ -16,7 +16,7 @@ main-image: /image.png
 Gurney flaps are small, right-angle tabs added to the trailing edge of a wing. They are a well established technique in aviation for increasing downforce, but their effect on drag and their optimal sizing relative to wing chord length aren't one size fits all. For Northeastern Electric Racing's front and rear wings, the question was whether Gurney flaps could meaningfully increase effective airfoil area and downforce without an unacceptable drag penalty for our specific wing geometry.
 
 ## Research & Design:
-I led the initial research phase, studying how Gurney flaps are used in aviation applications and adapting that logic to our car's wings. From there, I designed multiple flap height variants in Fusion 360, sized relative to the wing's chord length, to test across a range of geometries rather than committing to a single configuration upfront.
+I led the initial research phase, studying how Gurney flaps are used in aviation applications and adapting that logic to our car's wings. From there, I designed multiple flap height variants in Solidworks, sized relative to the wing's chord length, to test across a range of geometries rather than committing to a single configuration upfront.
 
 {% include image-gallery.html images="gurney-research.png, gurney-flap-cad.png" height="400" %}
 

@@ -22,13 +22,13 @@ Underwater treadmills use buoyancy to support joints and water viscosity to add 
 ## The Product:
 The DepthSelect is an isolated unit installable in any large SwimEx pool. It allows one user to control their own depth while other users remain at full depth for separate activities in the same pool, improving the pool's cost-to-performance ratio by letting a single installation serve multiple training and recovery needs at once, rather than requiring separate dedicated units.
 
-The current prototype drains its 8'x4'x5'6" chamber at a rate of 400L/min, roughly 1 foot of depth change every 30 seconds.
+The current prototype drains its 8'x4'x5'6" chamber at a rate of 400L/min.
 
 ## Design:
 Over six months as a design engineering intern at SwimEx, I played a key role in design decisions for the DepthSelect chamber and was one of two engineers responsible for early CAD development.
 
 ## Analysis:
-After evaluating an acrylic wall, we chose a composite wall to match the design language of the rest of the pool which introduced a new validation challenge (verification of an orthotropic materials durability). To address this, I developed an isotropic approximation of the orthotropic composite stack for use in Fusion 360 FEA. I validated this approximation against a physical test piece, and the FEA results proved accurate to within 30% of measured deflection.
+After evaluating an acrylic wall, we chose a composite wall to match the design language of the rest of the pool which introduced a new validation challenge (verification of an orthotropic materials durability). To address this, I developed an isotropic approximation of the orthotropic composite stack for use in Fusion FEA. I validated this approximation against a physical test piece, and the FEA results proved accurate to within 30% of measured deflection.
 
 {% include image-gallery.html images="test-fea.PNG, IMG_1393.jpeg, wall-fea.PNG" height="300" %}
 

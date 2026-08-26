@@ -22,7 +22,7 @@ Underwater treadmills use buoyancy to support joints and water viscosity to add 
 ## The Product:
 The DepthSelect is an isolated unit installable in any large SwimEx pool. It allows one user to control their own depth while other users remain at full depth for separate activities in the same pool, improving the pool's cost-to-performance ratio by letting a single installation serve multiple training and recovery needs at once, rather than requiring separate dedicated units.
 
-The current prototype drains its 8'x4'x5'6" chamber at a rate of 400L/min.
+The current prototype drains its 7'6" x 4' x 5'6" chamber at a rate of 400L/min.
 
 ## Design:
 Over six months as a design engineering intern at SwimEx, I played a key role in design decisions for the DepthSelect chamber and was one of two engineers responsible for early CAD development.

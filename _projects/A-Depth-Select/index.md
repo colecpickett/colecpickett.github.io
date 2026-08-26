@@ -28,8 +28,7 @@ The current prototype drains its 7'6" x 4' x 5'6" chamber at a rate of 700L/min.
 Over six months as a design engineering intern at SwimEx, I played a key role in design decisions for the DepthSelect chamber and was one of two engineers responsible for early CAD development.
 
 ## Analysis:
-After evaluating an acrylic wall, we chose a composite wall to match the design language of the rest of the pool which introduced a new validation challenge (verification of an orthotropic materials durability). To address this, I developed an isotropic approximation of the orthotropic composite stack for use in Fusion FEA. I validated this approximation against a physical test piece, and the FEA results proved accurate to within 30% of measured deflection.
-
+After evaluating an acrylic wall, we chose a composite wall to match the design language of the rest of the pool which introduced a new validation challenge (verification of an orthotropic materials durability). To address this, I developed an isotropic approximation of the orthotropic composite stack for use in Fusion FEA. I validated this approximation against a physical test piece, and the FEA did not correlate to a satisfactory degree, which justified consultation of a composite engineer. I joined the call with the composite engineer, helped explain our project and he returned with updated numbers to feed FEA.
 {% include image-gallery.html images="test-fea.PNG, IMG_1393.jpeg, wall-fea.PNG" height="300" %}
 
 ## Rapid Prototyping:

@@ -64,7 +64,6 @@ skills:
     tools:
     - Prompt & Context Engineering
     - AI-Assisted Static Analysis
-    - Tool Calling & API Integration
   - category: Design Standards / Practices
     tools:
     - GD&T

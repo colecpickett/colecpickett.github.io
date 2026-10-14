@@ -25,10 +25,14 @@ I designed the quadcopter frame in Fusion 360 to support 6" rotors, splitting th
 
 {% include image-gallery.html images="quad-cad.png" height="400" %}
 
+##Challenges and Iteration
+{% include image-gallery.html images="quad-handheld.jpg" height="400" %}
+The prototype was constructed using PETG plastic with added ribs for rigidity. This proved insufficient and caused a PID feedback loop from vibrations from the rotors. Despite this it was stiff enough for a short maiden flight, and ensuing crash. This proved to me that I needed to add rigidity and strength to the frame and influenced my decision to opt for carbon fiber. 
+
 ## Manufacturing & Assembly:
 After machining the carbon fiber frame components, I hand-soldered all of the onboard electronics to assemble a complete, functional build.
 
-{% include image-gallery.html images="quad-handheld.jpg, quad-assembled.jpg" height="400" %}
+{% include image-gallery.html images="quad-assembled.jpg" height="400" %}
 
 ## Results:
 The completed quadcopter flew successfully, with the carbon fiber frame proving strong and remaining fully intact through flight testing.

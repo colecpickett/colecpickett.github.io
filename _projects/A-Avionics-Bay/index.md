@@ -7,7 +7,7 @@ skills:
   - Cross-Functional Design
   - Modal Analysis
   - FDM 3D Print Prototyping
-main-image: /Screenshot-2026-10-23-130218.png
+main-image: /Cover.png
 ---
 ---
 
@@ -28,9 +28,11 @@ The triangle was inspired by the constraint of 3 cameras. With one camera per se
 {% include image-gallery.html images="Screenshot 2026-10-23 122929.png" height="300" %}
 
 ## Analysis:
-Since the airframe is carbon fiber, the avionics bay is not needed aas a structural element. However, there are some vibrational concerns in order to prevent damage of the camera footage. For revision 1 I have not had time to analyze the camera mounts, but I do have steps I plan on following for the next iteration. 
+There are some vibrational concerns in order to prevent damage of the camera footage. For revision 1 I have not had time to analyze the camera mounts, but I do have steps I plan on following for the next iteration. 
 
-The main source of vibration is the rocket motor. This does not have main frequency ranges I can design my camera mounts to avoid, instead it is such a disruptive source I am pushed to design a mount against vibrational magnitude instead. I plan on learning to use Solidworks modal analysis tool, and measuring the magnitude of vibration experienced at the avionics bay during its first flight. This will allow me to design the next revision to withstand that magnitude within a certain maximum rotation value. I will set that maximum rotation value by my target of less than 2 pixels of smear. I can convert pixel smear to rotation at the sensor using a pinhole smear model. 
+The main source of vibration is the rocket motor. This does not have main frequency ranges I can design my camera mounts to avoid, instead it is such a disruptive source I am pushed to design a mount against vibrational magnitude instead. I plan on learning to use Solidwork's modal analysis tool, and measuring the magnitude of vibration experienced at the avionics bay during its first flight. I will then use a pinhole smear model to target a pixel smear below 3 pixels. 
+
+Another source of concern is aerodynamic forces on the camera facing down, Once the flange is designed I will run some hand calculations using the forward facing surface to see how much force will impact the flange at peak speed. It is also going to be placed opposite the launch 
 
 ## Rapid Prototyping:
 The design for revision 1 is almost complete, and the first prototype will be 3D printed from ABS plastic using water soluable PLA supports this coming week. 

@@ -21,9 +21,11 @@ Next to the 1000oz wet weight of the rocket, the avionics bay weighs relatively 
 
 ## Design:
 The design of the avionics bay is a triangular sled with two battery holders that can slide into either end. These are then clamped between two fiberglass end caps for protection.
+{% include image-gallery.html images="Screenshot 2026-10-23 122957.png, Screenshot 2026-10-23 123049.png" height="300" %}
 
 Why a triangle?
 The triangle was inspired by the constraint of 3 cameras. With one camera per section and room in the middle for battery storage, the avionics bay could be kept within the 160mm height constraint. Furthermore the compartmented design allows easier access/replacement of batteries
+{% include image-gallery.html images="Screenshot 2026-10-23 122929.png" height="300" %}
 
 ## Analysis:
 Since the airframe is carbon fiber, the avionics bay is not needed aas a structural element. However, there are some vibrational concerns in order to prevent damage of the camera footage. For revision 1 I have not had time to analyze the camera mounts, but I do have steps I plan on following for the next iteration. 
@@ -32,8 +34,6 @@ The main source of vibration is the rocket motor. This does not have main freque
 
 ## Rapid Prototyping:
 The design for revision 1 is almost complete, and the first prototype will be 3D printed from ABS plastic using water soluable PLA supports this coming week. 
-
-{% include image-gallery.html images="IMG_1976.jpeg, 20260625_115324.jpg, Installed.jpeg" height="300" %}
 
 ## Cross-Functional Design:
 As an avionics packaging project I have worked closely with our avionics division to determine their needs for antennae access, technology needs, and battery sizing. 

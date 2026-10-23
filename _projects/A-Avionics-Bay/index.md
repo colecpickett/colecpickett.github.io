@@ -12,19 +12,19 @@ main-image: /Cover.png
 ---
 
 ## The Goal:
-Create an avionics bay to fit inside a 95mm diameter within 160mm height. The avionics bay had run time contraints set by our launch site as well. Our avionics team advised on battery choice, and required circuitry. The avionics bay requires a flight controller to ignite stage 2, 3 cameras for 3 different views, as well as gps and barometric telemetry.
+Create an avionics bay to fit inside a 95mm diameter within 160mm height. The avionics bay had run time contrainted set by our launch site as well. Our avionics team advised on battery choice, and required circuitry. The avionics bay requires a flight controller to ignite stage 2, 3 cameras for 3 different views, as well as gps and barometric telemetry.
 
 ## Challenges:
-The avionics bay needs to be developed quickly to enable a launch in November. For this reason it was important I prioritized my contraints. I decided to prioritize spacial contraints and manufacturability. This is because these are non-negotiable for a succesfful fast development project. Other important contraints like aerodynamic performance and weight saving took a back seat to support faster development. 
+The avionics bay needs to be developed quickly to enable a launch in November. For this reason it was important I prioritized my contraints. I decided to prioritize spacial contraints and manufacturability. This is because these are non-negotiable for a successful fast development project. Other important contraints like aerodynamic performance and weight saving took a back seat to support faster development. 
 
-Next to the 1000oz wet weight of the rocket, the avionics bay weighs relatively little. On top of this the majority of the avionics bay weight is from the batteries and cameras, not the packaging. This means that the maximum 3 oz plastic sled is inconsequential next to the rockets 1000oz total. Aerodynamically, I have made some considerations. The more obtrusive cameras will be placed opposite our launch rails in order to cause the least offset possible in center of pressure, however the small faring for the obtrusive camera will be minor due to our large stabilizers, and once at high speeds the hole for the side view camera will have minimal impact due to boundary layer conditions.
+Next to the 1000oz wet weight of the rocket, the avionics bay weighs relatively little. On top of this the majority of the avionics bay weight is from the batteries and cameras, not the packaging. This means that the maximum 3 oz plastic sled is inconsequential next to the rockets 1000oz total. Aerodynamically, I have made some considerations. The more obtrusive cameras will be placed opposite our launch rails in order to cause the least offset possible in center of pressure, however the small fairing for the obtrusive camera will need to be analyzed for aerodynamic forces.
 
 ## Design:
 The design of the avionics bay is a triangular sled with two battery holders that can slide into either end. These are then clamped between two fiberglass end caps for protection.
 {% include image-gallery.html images="Screenshot 2026-10-23 122957.png, Screenshot 2026-10-23 123049.png" height="300" %}
 
 Why a triangle?
-The triangle was inspired by the constraint of 3 cameras. With one camera per section and room in the middle for battery storage, the avionics bay could be kept within the 160mm height constraint. Furthermore the compartmented design allows easier access/replacement of batteries
+The triangle was inspired by the requirement of 3 cameras. With one camera per section and room in the middle for battery storage, the avionics bay could be kept within the 160mm height constraint. Furthermore the compartmented design allows easier access/replacement of batteries
 {% include image-gallery.html images="Screenshot 2026-10-23 122929.png" height="300" %}
 
 ## Analysis:

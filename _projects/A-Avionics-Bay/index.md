@@ -1,4 +1,4 @@
- ---
+---
 layout: post
 title: Avionics Bay for Supersonic Vehicle (Current Development)
 description: I am leading the design prototype and final manufacture of the sustainer avionics bay on a two stage carbon fiber super sonic rocket. This is part of my involvement with Aerospace NU

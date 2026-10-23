@@ -7,7 +7,7 @@ skills:
   - Cross-Functional Design
   - Modal Analysis
   - FDM 3D Print Prototyping
-main-image: /DepthSelect_Default.png
+main-image: /Current_State.png
 ---
 ---
 

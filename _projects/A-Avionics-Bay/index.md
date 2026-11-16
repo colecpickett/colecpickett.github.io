@@ -14,6 +14,7 @@ main-image: /6B66C58C-4DF4-4DED-8540-22FDCD325043_1_105_c.jpeg
 
 ## The Goal:
 Create an avionics bay to fit inside a 95mm diameter within 170mm height. Our avionics team advised on battery choice and required circuitry. The avionics bay requires a flight controller to ignite stage 2, a flight controller for drogue and main parachute deployment, 3 cameras for 3 different views, as well as gps and barometric telemetry.
+{% include image-gallery.html images="F108AAC4-DC65-4387-B0AF-A8B8E9948EBC_1_105_c.jpeg" height="300" %}
 
 ## Challenges:
 Development was time constrained to roughly six weeks (First test flight on November 21st. For this reason it was important I prioritized constraints. I decided to prioritize spacial contraint and manufacturability. This is because these are non-negotiable for a successful fast development project. Other important contraints like aerodynamic performance and weight saving took a back seat to support faster development. 
@@ -26,7 +27,7 @@ The design of the avionics bay is a triangular sled with two battery holders tha
 
 Why a triangle?
 The triangle makes placement of 3 cameras easy on the 3 faces, as well as three required antenna to be evenly spaced. Furthermore the compartmented design allows easier access/replacement of batteries (stored in the center).
-{% include image-gallery.html images="Screenshot 2026-10-23 122929.png, " height="300" %}
+{% include image-gallery.html images="Screenshot 2026-10-23 122929.png, 53F49506-4859-4954-9E32-514358AD8679_4_5005_c.jpeg" height="300" %}
 
 ## Analysis:
 There are some vibrational concerns in order to prevent damage of the camera footage. For revision 1 I have not had time to analyze the camera mounts, but I do have steps I plan on following for the next iteration. 
@@ -39,7 +40,7 @@ After reinforcement the part appears close to failure (under target safety facto
 
 ## Rapid Prototyping:
 I used 3D printing and laser cutting to create a majority of the parts. The carbon fiber coupler and switch band that wrap the avionics bay required 3D printed jigs for hole placement.
-{% include image-gallery.html images="B952BFA6-2221-4D18-8155-9E9BE47F1182_1_105_c.jpeg, " height="300" %}
+{% include image-gallery.html images="B952BFA6-2221-4D18-8155-9E9BE47F1182_1_105_c.jpeg, 0F4361FC-3292-4290-A3F7-2518AF270423_1_105_c.jpeg" height="300" %}
 
 ## Cross-Functional Design:
 As an avionics packaging project I have worked closely with our avionics division to determine their needs for antennae access, sensor needs, and battery sizing. 

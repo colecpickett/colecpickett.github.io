@@ -8,7 +8,7 @@ skills:
   - Modal Analysis
   - FDM 3D Print Prototyping
   - FEA
-main-image: /6B66C58C.png
+main-image: /6B66C58C-4DF4-4DED-8540-22FDCD325043_1_105_c.jpeg
 ---
 ---
 

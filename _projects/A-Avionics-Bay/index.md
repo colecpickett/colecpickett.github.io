@@ -26,7 +26,7 @@ The design of the avionics bay is a triangular sled with two battery holders tha
 
 Why a triangle?
 The triangle makes placement of 3 cameras easy on the 3 faces, as well as three required antenna to be evenly spaced. Furthermore the compartmented design allows easier access/replacement of batteries (stored in the center).
-{% include image-gallery.html images="Screenshot 2026-10-23 122929.png" height="300" %}
+{% include image-gallery.html images="Screenshot 2026-10-23 122929.png, " height="300" %}
 
 ## Analysis:
 There are some vibrational concerns in order to prevent damage of the camera footage. For revision 1 I have not had time to analyze the camera mounts, but I do have steps I plan on following for the next iteration. 
@@ -39,7 +39,7 @@ After reinforcement the part appears close to failure (under target safety facto
 
 ## Rapid Prototyping:
 I used 3D printing and laser cutting to create a majority of the parts. The carbon fiber coupler and switch band that wrap the avionics bay required 3D printed jigs for hole placement.
-{% include image-gallery.html images="B952BFA6-2221-4D18-8155-9E9BE47F1182_1_105_c.jpeg" height="300" %}
+{% include image-gallery.html images="B952BFA6-2221-4D18-8155-9E9BE47F1182_1_105_c.jpeg, " height="300" %}
 
 ## Cross-Functional Design:
 As an avionics packaging project I have worked closely with our avionics division to determine their needs for antennae access, sensor needs, and battery sizing. 

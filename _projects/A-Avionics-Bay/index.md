@@ -44,3 +44,4 @@ I used 3D printing and laser cutting to create a majority of the parts. The carb
 
 ## Cross-Functional Design:
 As an avionics packaging project I have worked closely with our avionics division to determine their needs for antennae access, sensor needs, and battery sizing. 
+{% include image-gallery.html images="85D1CE9E-64CF-4AEA-9C31-4F58DA261216_1_105_c.jpeg" height="300" %}

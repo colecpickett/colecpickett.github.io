@@ -28,16 +28,21 @@ The current prototype drains its 7'6" x 4' x 5'6" chamber at a rate of 700L/min.
 Over six months as a design engineering intern at SwimEx, I played a key role in design decisions for the DepthSelect chamber and was one of two engineers responsible for early CAD development.
 
 ## Analysis:
-After evaluating an acrylic wall, we chose a composite wall to match the design language of the rest of the pool which introduced a new validation challenge (verification of an orthotropic materials durability). To address this, I developed an isotropic approximation of the orthotropic composite stack for use in Fusion FEA. I validated this approximation against a physical test piece, and the FEA did not correlate to a satisfactory degree, which justified consultation of a composite engineer. I joined the call with the composite engineer, helped explain our project and he returned with updated numbers to feed FEA.
+I evaluated the strength of an acrylic wall, a steel supported acrylic wall, and a composite wall with acrylic windows using Fusion FEA. Comparing the performance of these solutions to price quotes our team decided to move forward with the fiberglass composite wall.
+
+I did not have access to a purpose-built orthotropic FEA software, so I used an approximated isotropic Young's modulus to estimate our material properties, then modeled the layers of the composite schedule. To verify this I applied the method to a simple cantilever beam, then had a physical beam manufactured. Testing the physical beams deflection (our critical metric) against the FEA exposed a discrepancy and allowed me to tune my FEA to better match reality. To further validate the FEA I consulted a composite engineer from our fiberglass supplier. He helped us develop our final composite stack, and my tuned FEA was approximate to his hand calculations. 
+
+This FEA served as a conservative estimate and set the maximum size of the chamber.
+
 {% include image-gallery.html images="test-fea.PNG, IMG_1393.jpeg, wall-fea.PNG" height="300" %}
 
 ## Rapid Prototyping:
-One of the most demanding parts of the design was the mechanical seal. Because fiberglass composites retain some flexibility, FEA predicted wall flex during draining and filling meaning the connection to the outer pool wall couldn't be a rigid bond. I helped develop a seal design that both acted as a simple support against the hydrostatic pressure, and allowed the wall to slide in the case of chamber flex.
+One of the most demanding parts of the design was the mechanical seal. Because fiberglass composites retain some flexibility, FEA predicted wall flex during draining and filling meaning the connection to the outer pool wall couldn't be a rigid bond. I developed a seal design that both acted as a simple support against the hydrostatic pressure, and allowed the wall to slide in the case of chamber flex.
 
-I designed a full-scale cross section of the seal at the point where the wall meets the floor, then 3D printed it to test the seal design directly. This prototype validated the seal's performance, identified the most effective adhesive, and surfaced key design changes before we moved to a full-scale build.
+I designed a full-scale cross section of the seal at the point where the wall meets the floor, then 3D printed it to test the seal design directly. This prototype validated the seal's performance, identified the most effective adhesive, and surfaced key design changes before we moved to a full-scale build. The 3D printed prototype validated the reliability of the seal with a two month static set. The full scale prototype functioned, the seal did not leak after several fill cycles and retained its capability for a one week static set.
 
 ## Full-Scale Prototype:
-After months of FEA, regulatory research, design work, rapid prototyping, and market research, we began construction of a full-scale prototype using designs I helped develop and drawings I authored. I helped oversee construction and am pictured below alongside SwimEx's Head Engineer in what became the first functional DepthSelect chamber.
+After months of FEA, regulatory research, design work, rapid prototyping, and market research, we began construction of a full-scale prototype using designs I developed and drawings I authored. I worked with our manufacturing manager for successful DFM, then supported manufacture. I am pictured below alongside SwimEx's Head Engineer in what became the first functional DepthSelect chamber.
 
 {% include image-gallery.html images="IMG_1976.jpeg, 20260625_115324.jpg, Installed.jpeg" height="300" %}
 
